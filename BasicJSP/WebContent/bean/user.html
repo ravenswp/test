@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	table,th,tr,td{
+		border:1px solid;
+		border-collapse:collapse;
+		width:300px;
+	}
+	td{
+		text-align:center;
+	}
+	th{
+		width:20%;
+	}
+</style>
+</head>
+<body>
+	<form action='user.jsp'>
+		<table>		
+			<tr>
+				<th colspan='2'>JSP Beans 테스트</th>
+			</tr>
+			<tr>
+				<th>이름</th>
+				<td><input type='text' name='name'></td>			
+			</tr>
+			<tr>
+				<th>학번</th>
+				<td><input type='text' name='num'></td>			
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<input type="submit" value="보내기">
+					<input type="reset" value="다시쓰기">
+				</td>
+			</tr>	
+		</table>
+	</form>
+</body>
+</html>
